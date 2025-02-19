@@ -14,11 +14,3 @@ services:
       - "3000:3000"
     volumes:
       - ./frontend:/app
-  db:
-    image: postgres
-    environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: mydb
-    ports:
-      - "5432:5432"
