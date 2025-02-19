@@ -1,0 +1,10 @@
+{
+    "project_name": "My Django React App",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "author_name": "Your Name",
+    "email": "you@example.com",
+    "description": "A Django + React web application",
+    "use_docker": "yes",
+    "database": ["sqlite", "postgres"],
+    "frontend_package_manager": ["npm", "yarn"]
+  }
