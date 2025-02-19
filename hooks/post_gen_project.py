@@ -1,7 +1,7 @@
 import os
 import shutil
 
-use_docker = "{{cookiecutter.use_docker}}" == "yes"
+use_docker = "{{cookiecutter.use_docker}}" == "y"
 
 if not use_docker:
     os.remove("{{cookiecutter.project_slug}}/docker-compose.yml")

@@ -4,6 +4,6 @@
     "author_name": "Your Name",
     "email": "you@example.com",
     "description": "Django + React template",
-    "use_docker": "yes",
+    "use_docker": ["y", "n"],
     "frontend_package_manager": "npm"
   }
