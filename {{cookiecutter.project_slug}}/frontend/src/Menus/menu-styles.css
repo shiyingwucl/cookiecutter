@@ -1,0 +1,23 @@
+.side-menu__title {
+	padding-left: 0.8rem;
+	padding-right: 0.8rem;
+}
+
+.footer__main {
+	background-color: var(--footer-background);
+	display: flex;
+	height: clamp(5vh, 7vh, 10vh);
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer--text {
+	color: #ffffff;
+}
+
+.footer__copyright {
+	font-size: 80%;
+}
