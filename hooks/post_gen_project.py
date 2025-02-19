@@ -1,5 +1,4 @@
 import os
-import shutil
 
 use_docker = "{{cookiecutter.use_docker}}" == "y"
 
