@@ -5,5 +5,9 @@
     "email": "you@example.com",
     "description": "Django + React template",
     "use_docker": ["y", "n"],
-    "frontend_package_manager": "npm"
+    "frontend_package_manager": "npm",
+    "_copy_without_render": [
+      "*.js",
+      "*.jsx"
+    ]
   }
