@@ -7,6 +7,6 @@
     "use_docker": ["y", "n"],
     "frontend_package_manager": "npm",
     "_copy_without_render": [
-      "frontend/"
+      "*/frontend/*"
     ]
   }
