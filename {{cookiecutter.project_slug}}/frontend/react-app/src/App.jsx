@@ -2,9 +2,9 @@ import { Button, IconButton } from "@mui/material";
 import "./App.css";
 import { Dehaze as DehazeIcon } from "@mui/icons-material";
 import { useState } from "react";
-import { LoginModal } from "./src/LoginSignup/LoginModal";
-import { SideMenu } from "./src/Menus/SideMenu";
-import { Footer } from "./src/Menus/Footer";
+import { LoginModal } from "./LoginSignup/LoginModal";
+import { SideMenu } from "./Menus/SideMenu";
+import { Footer } from "./Menus/Footer";
 
 function App() {
 	const [openModal, setOpenModal] = useState(false);
