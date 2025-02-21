@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'corsheaders',  # Allow frontend to communicate
+    'corsheaders',
+    'api',
 ]
 
 MIDDLEWARE = [
@@ -53,7 +54,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # React frontend
+    "http://localhost:5173",
 ]
 
 ROOT_URLCONF = '{{cookiecutter.project_slug}}.urls'
