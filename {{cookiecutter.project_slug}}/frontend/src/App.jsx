@@ -1,5 +1,4 @@
-import { useState, useEffect } from "react";
-import axios from "axios";
+import { useState} from "react";
 import { Button, IconButton } from "@mui/material";
 import "./App.css";
 import { Dehaze as DehazeIcon } from "@mui/icons-material";
