@@ -1,8 +1,10 @@
 from django.shortcuts import render
+from rest_framework import viewsets
+from .serializers import LoginDetailSerializer
+from .models import LoginDetail
 
-from rest_framework.response import Response
-from rest_framework.decorators import api_view
+# Create your views here.
 
-@api_view(['GET'])
-def hello_world(request):
-    return Response({"message": "Hello from Django!"})
+class LoginDetailView(viewsets.ModelViewSet):
+    serializer_class = LoginDetailSerializer
+    queryset = LoginDetail.objects.all()
