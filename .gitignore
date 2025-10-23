@@ -1,0 +1,12 @@
+# Global files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+
+# System Logs
+*.log
