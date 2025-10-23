@@ -1,0 +1,50 @@
+# Python/ Django
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+db.sqlite3
+*.log
+*.pot
+*.mo
+local_settings.py
+
+# Django media/ static files
+media/
+staticfiles/
+static/
+
+# Environment
+.env
+.env.*
+*.env
+*.secret
+secrets.json
+
+# === Virtual Environment ===
+venv/
+.venv/
+env/
+ENV/
+
+# Testing and coverage logs
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Local build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Type Checking
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
