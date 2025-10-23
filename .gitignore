@@ -16,3 +16,9 @@ Thumbs.db
 
 # System Logs
 *.log
+
+# Docker
+*.pid
+*.sock
+logs/
+__docker_cache__/
