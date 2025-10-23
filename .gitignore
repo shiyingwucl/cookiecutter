@@ -1,7 +1,13 @@
-# Global files
-.vscode/
+# Editor and OS
+.vscode/*
+!.vscode/extensions.json
 .idea/
 .DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 Thumbs.db
 
 # Environment
