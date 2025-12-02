@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = []
+
+[project]
+name = "{{cookiecutter.project_slug}}"
+dynamic = ["version"]
+# Runtime dependencies. Install with: `pip install .`
+dependencies = [
+  "django >= 5.2.7",
+  "django-cors-headers >= 4.9.0",
+  "django-ninja >= 1.4.5",
+  "django-ninja-extra >= 0.30.2",
+  "django-ninja-jwt >= 5.4.0",
+]
+
+# Optional dependencies. Install with: `pip install .[dev]` if you would like to include these.
+[project.optional-dependencies]
+dev = [
+  "pytest >= 9.0.0",
+  "pytest-django >= 4.11.1",
+  "pre-commit >= 4.3.0",
+]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = '"{{cookiecutter.project_slug}}".settings.settings'
+python_files = ["tests.py", "test_*.py", "*_tests.py"]
