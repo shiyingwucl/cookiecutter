@@ -2,7 +2,7 @@
 
 Recommended alternatives:
 
-[Official cookicutter django template without react](https://github.com/cookiecutter/cookiecutter-django)
+[Official cookicutter django template (no react)](https://github.com/cookiecutter/cookiecutter-django)
 
 ## Overview
 
