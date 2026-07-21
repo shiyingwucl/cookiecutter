@@ -1,4 +1,8 @@
-# Django - React/Vite.js Cookiecutter template
+# Django - React/Vite.js Cookiecutter template (Deprecated)
+
+Recommended alternatives:
+
+[Official cookicutter django template without react](https://github.com/cookiecutter/cookiecutter-django)
 
 ## Overview
 
